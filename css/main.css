@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  font-size: 10px;
+  scroll-behavior: smooth; }
+
+body {
+  font-size: 1.6rem; }
+
+body, * {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Raleway', sans-serif; }
+
+ul, ol {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6, p, span {
+  margin-bottom: 0; }
+
+.font__100 {
+  font-weight: 100 !important; }
+
+.font__200 {
+  font-weight: 200 !important; }
+
+.font__300 {
+  font-weight: 300 !important; }
+
+.font__400 {
+  font-weight: 400 !important; }
+
+.font__500 {
+  font-weight: 500 !important; }
+
+.font__600 {
+  font-weight: 600 !important; }
+
+.font__700 {
+  font-weight: 700 !important; }
+
+.font__800 {
+  font-weight: 800 !important; }
+
+.font__900 {
+  font-weight: 900 !important; }
+
+.menu__head {
+  margin-left: 3rem; }
+  .menu__head li {
+    margin: 0px 1rem; }
+    .menu__head li a {
+      font-size: 2.2rem;
+      font-weight: 600; }
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  position: relative; }
+  .hero__back {
+    height: 100%;
+    background: url(../images/header-2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top center; }
+
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
+.circle__ {
+  width: 100%;
+  height: 110%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -38rem;
+  position: relative;
+  z-index: 99; }
+
+.item {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  background-color: #a8cf89;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px 100px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; }
+  .item img {
+    width: 140px; }
+  .item h3 {
+    font-size: 3rem; }
+  @media (max-width: 1400px) {
+    .item {
+      width: 25rem;
+      height: 25rem;
+      margin: 0px 40px; }
+      .item img {
+        width: 110px; }
+      .item h3 {
+        font-size: 2.5rem; } }
+  @media (max-width: 991px) {
+    .item {
+      margin: auto; } }
+
+.bg__orange {
+  background-color: #f8b235; }
+
+.bg__blue {
+  background-color: #57b1d8; }
+
+.map > h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  margin-bottom: 10px; }
+
+.map > p {
+  font-size: 2.5rem; }
+
+@media (max-width: 991px) {
+  .map .row ul {
+    margin: 5rem auto; } }
+
+.map .row ul > li {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: right !important; }
+  .map .row ul > li::after {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    -webkit-transform: translate(50%, -50%);
+            transform: translate(50%, -50%);
+    content: "";
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url(../images/bullet.svg);
+    background-size: cover; }
+  @media (max-width: 991px) {
+    .map .row ul > li {
+      margin: auto; } }
+
+.graphic {
+  padding: 8rem 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 248, 252, 0.965)), to(rgba(247, 248, 252, 0.965)));
+  background: linear-gradient(rgba(247, 248, 252, 0.965), rgba(247, 248, 252, 0.965));
+  -webkit-clip-path: polygon(0 6%, 100% 0, 100% 85%, 0% 100%);
+          clip-path: polygon(0 6%, 100% 0, 100% 85%, 0% 100%); }
+  .graphic h1 {
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+    color: #f8b235; }
+  .graphic h5, .graphic p {
+    font-size: 2rem;
+    margin-bottom: 2rem; }
+  .graphic button {
+    border: none;
+    padding: 10px 30px; }
+
+.Unsere .user {
+  width: 23rem;
+  height: 23rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.Unsere h5 {
+  font-weight: normal;
+  font-size: 3rem; }
+
+.Unsere h3 {
+  font-weight: 700;
+  font-size: 6rem;
+  color: #f8b235; }
+
+.Unsere p {
+  font-size: 2.5rem; }
+
+.background {
+  padding: 9rem 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(104, 185, 220, 0.918)), to(rgba(104, 185, 220, 0.918))), url(../images/background.png);
+  background: linear-gradient(rgba(104, 185, 220, 0.918), rgba(104, 185, 220, 0.918)), url(../images/background.png);
+  -webkit-clip-path: polygon(0 13%, 100% 0, 100% 88%, 0% 100%);
+          clip-path: polygon(0 13%, 100% 0, 100% 88%, 0% 100%); }
+
+.newsletter {
+  padding: 12rem 0; }
+  .newsletter h1 {
+    color: #f8b235;
+    font-size: 4rem;
+    margin-bottom: 15px; }
+  .newsletter p {
+    font-size: 2rem;
+    margin-bottom: 3rem; }
+  .newsletter form input, .newsletter form select {
+    border: none;
+    border-bottom: 2px solid #f8b235;
+    font-size: 2rem; }
+  .newsletter button {
+    background-color: #f8b235;
+    border: none;
+    padding: 1rem 3.5rem; }
+
+@media (max-width: 600px) {
+  .Unsere h3 {
+    font-size: 4rem; }
+  .Unsere p {
+    font-size: 2rem; } }
+/*# sourceMappingURL=main.css.map */
